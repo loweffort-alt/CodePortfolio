@@ -46,6 +46,7 @@ export const TextHome = () => {
     <Links>
       <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} />
       <LinksHome logo={'Linkedin'} link={'https://www.linkedin.com/in/alexfarfan/'} />
+      <LinksHome logo={'CV'} link={'https://getonbrd-prod.s3.amazonaws.com/uploads/cv/adff95df2676ecf984666ba076e0af02/ResumeAlexFarfan.pdf?X-Amz-Expires=86400&X-Amz-Date=20220201T204116Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT5MYUSOEN4SITVA%2F20220201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e8339aeebf7fcd7805409b29b1945a6d10c6dcd5788d61401942d3749284fcf9'} />
       <LinksHome logo={'Mail'} link={'mailto:farfan_alexander@outlook.com'} />
     </Links>
   </Font>

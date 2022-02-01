@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import {ReactComponent as Arrow} from '../images/ArrowDown.svg'
+import {ReactComponent as Arrow} from '../../images/ArrowDown.svg'
 
 const Footer = styled.div`
   display: flex;

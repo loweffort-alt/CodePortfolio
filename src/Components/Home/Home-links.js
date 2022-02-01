@@ -1,6 +1,7 @@
-import {ReactComponent as Github} from '../images/Github.svg'
-import {ReactComponent as Linkedin} from '../images/Linkedin.svg'
-import {ReactComponent as Mail} from '../images/Mail.svg'
+import {ReactComponent as Github} from '../../images/Github.svg'
+import {ReactComponent as Linkedin} from '../../images/Linkedin.svg'
+import {ReactComponent as Mail} from '../../images/Mail.svg'
+import {ReactComponent as Cv} from '../../images/CV.svg'
 
 export const LinksHome = ({logo, link}) => {
   switch (logo) {
@@ -15,6 +16,10 @@ export const LinksHome = ({logo, link}) => {
     case 'Mail':
       return <a href={link} target='_blank' rel='noreferrer'>
           <Mail width='50px' height='50px'/>
+        </a>
+    case 'CV':
+      return <a href={link} target='_blank' rel='noreferrer'>
+          <Cv width='50px' height='50px'/>
         </a>
     default:
       break;

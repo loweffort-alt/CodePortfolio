@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import {ReactComponent as Image} from '../images/FrontImage.svg'
+import {ReactComponent as Image} from '../../images/FrontImage.svg'
 import { TextHome } from "./Home-text"
 
 const Container = styled.div`
