@@ -59,7 +59,7 @@ h3 {
 export const TextAbout = () => {
   return <Font>
     <h1>
-    "Technology  is already part of our identity as humans."
+    Technology  is already part of our identity as humans.
     </h1>
     <h3>
     For me, programming is the most direct and innovative way to understand and build the Internet, this drives me to learn various technologies without forgetting other passions such as music and physics.
