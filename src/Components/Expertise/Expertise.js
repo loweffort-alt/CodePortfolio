@@ -13,6 +13,9 @@ const Container = styled.section`
   };
   background-color: var(--blue-bg);
   position: relative;
+  @media (max-width: 450px) {
+    height: 105vh;
+  };
 `
 
 export const Expertise = () => {

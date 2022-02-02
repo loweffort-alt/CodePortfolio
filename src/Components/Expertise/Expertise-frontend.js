@@ -18,7 +18,17 @@ const Box = styled.div`
     letter-spacing: 0.2em;
     font-variant: small-caps;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+  };
+  @media (max-width: 450px) {
+    h1 {
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 0.25em;
+    };
+    svg {
+      width: 100%;
+    }
+  };
 `
 
 export const FrontendExpertise = () => {

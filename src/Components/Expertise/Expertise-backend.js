@@ -19,7 +19,14 @@ const Box = styled.div`
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   };
   @media (max-width: 450px) {
-
+    h1 {
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 0.25em;
+    };
+    svg {
+      width: 105%;
+    }
   };
 `
 
