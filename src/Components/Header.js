@@ -3,17 +3,20 @@ import { ReactComponent as Logo } from '../images/Logo.svg'
 import { MenuOptions } from "./MenuOptions"
 
 const Container = styled.div`
-  display: flex;  
+  display: flex;
+  width: 100%;
   list-style: none;
+  box-sizing: border-box;
   background: rgba(14,31,38,0.3);
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0px;
   padding: 22px 67px 0px;
-  height: 70px;
+  height: 92px;
   z-index: 5;
   @media (max-width: 700px) {
-    padding: 22px 30px 0px;
+    padding: 10px 30px 0px;
+    height: 82px;
   }
 `
 

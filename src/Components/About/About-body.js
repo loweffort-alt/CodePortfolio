@@ -20,8 +20,7 @@ const Container = styled.section`
 
 const Random = styled.div`
   position: absolute;
-  right: 0px;
-  z-index: 2;
+  left: 0px;
 `
 
 export const BodyAbout = () => {

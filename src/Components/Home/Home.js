@@ -4,19 +4,20 @@ import { FooterHome } from './Home-footer'
 
 const Container = styled.section`
   background-color: var(--blue-three);
+  box-sizing: border-box;
   padding: 0px 67px;
   margin: 0px;
-  margin-top: -92px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
   @media (max-width: 700px) {
-    padding: 0px 30px
+    padding: 0px 30px;
   }
 `
 
 const Ghost = styled.div`
+  height: 55px;
 `
 
 export const Home = () => {

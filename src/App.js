@@ -8,6 +8,7 @@ import styled from '@emotion/styled';
 const Container = styled.div`
   position: relative;
   box-sizing: content-box;
+  overflow-x: hidden;
 `
 
 function App() {

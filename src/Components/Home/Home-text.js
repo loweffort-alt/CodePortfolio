@@ -1,17 +1,27 @@
 import styled from "@emotion/styled"
 import { LinksHome } from "./Home-links"
 
-const Font = styled.div`
+const Font = styled.section`
   font-family: Raleway;
   color: #f7f7f7;
   line-height: 56px;
   text-shadow: 0.2em 0.2em black;
+  background: rgba(14,31,38,0.3);
+  position: absolute;
+  left: 0px;
+  z-index: 3;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+  }
   h1 {
     font-size: 80px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.1em;
     text-transform: capitalize;
+    margin: 0px;
   };
   h2 {
     font-size: 48px;
@@ -20,16 +30,19 @@ const Font = styled.div`
     letter-spacing: 0.03em;
     text-transform: capitalize;
   };
-  position: absolute;
-  left: 0px;
-  z-index: 3;
   @media (max-width: 450px) {
-    line-height: 75px;
     text-align: center;
-  }
+    height: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-size: 65px;
+    };
+  };
 `
 
-const Links = styled.div`
+const Links = styled.section`
   display: flex;
   gap: 34px;
   align-items: center;
@@ -40,8 +53,10 @@ const Links = styled.div`
 
 export const TextHome = () => {
   return <Font>
-    <h1>Hello,</h1>
-    <h1>I'm Alex!</h1>
+    <div>
+      <h1>Hello,</h1>
+      <h1>I'm Alex!</h1>
+    </div>
     <h2>A Front-End Developer</h2>
     <Links>
       <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} />
