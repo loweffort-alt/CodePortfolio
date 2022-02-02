@@ -11,7 +11,7 @@ const Container = styled.section`
   @media (max-width: 700px) {
     padding: 0px 30px;
   };
-  background-color: var(--pink-two);
+  background-color: var(--blue-bg);
   position: relative;
 `
 

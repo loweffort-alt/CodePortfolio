@@ -6,7 +6,6 @@ const Font = styled.section`
   color: #f7f7f7;
   line-height: 56px;
   text-shadow: 0.2em 0.2em black;
-  background: rgba(14,31,38,0.3);
   position: absolute;
   left: 0px;
   z-index: 3;
@@ -46,8 +45,16 @@ const Links = styled.section`
   display: flex;
   gap: 34px;
   align-items: center;
+  a {
+    display: flex;
+    padding: 5px;
+  };
   @media (max-width: 450px) {
     justify-content: center;
+    svg {
+      width: 45px;
+      height: 45px;
+    };
   }
 `
 
@@ -59,10 +66,10 @@ export const TextHome = () => {
     </div>
     <h2>A Front-End Developer</h2>
     <Links>
-      <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} />
-      <LinksHome logo={'Linkedin'} link={'https://www.linkedin.com/in/alexfarfan/'} />
-      <LinksHome logo={'CV'} link={'https://getonbrd-prod.s3.amazonaws.com/uploads/cv/adff95df2676ecf984666ba076e0af02/ResumeAlexFarfan.pdf?X-Amz-Expires=86400&X-Amz-Date=20220201T204116Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT5MYUSOEN4SITVA%2F20220201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e8339aeebf7fcd7805409b29b1945a6d10c6dcd5788d61401942d3749284fcf9'} />
-      <LinksHome logo={'Mail'} link={'mailto:farfan_alexander@outlook.com'} />
+      <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} width={'50px'}/>
+      <LinksHome logo={'Linkedin'} link={'https://www.linkedin.com/in/alexfarfan/'} width={'50px'} />
+      <LinksHome logo={'CV'} link={'https://getonbrd-prod.s3.amazonaws.com/uploads/cv/adff95df2676ecf984666ba076e0af02/ResumeAlexFarfan.pdf?X-Amz-Expires=86400&X-Amz-Date=20220201T204116Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT5MYUSOEN4SITVA%2F20220201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e8339aeebf7fcd7805409b29b1945a6d10c6dcd5788d61401942d3749284fcf9'} width={'50px'} />
+      <LinksHome logo={'Mail'} link={'mailto:farfan_alexander@outlook.com'} width={'50px'} />
     </Links>
   </Font>
 }

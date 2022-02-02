@@ -3,7 +3,7 @@ import { BodyHome } from './Home-body'
 import { FooterHome } from './Home-footer'
 
 const Container = styled.section`
-  background-color: var(--blue-three);
+  background-color: var(--blue-bg);
   box-sizing: border-box;
   padding: 0px 67px;
   margin: 0px;

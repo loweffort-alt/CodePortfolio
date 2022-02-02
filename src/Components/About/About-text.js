@@ -1,7 +1,6 @@
 import styled from "@emotion/styled"
 
 const Font = styled.section`
-background: rgba(200,20,150,0.2);
 font-family: Raleway;
 color: #f7f7f7;
 text-shadow: 0.2em 0.2em black;

@@ -7,7 +7,7 @@ const Container = styled.div`
   width: 100%;
   list-style: none;
   box-sizing: border-box;
-  background: rgba(14,31,38,0.3);
+  background: linear-gradient(180deg, rgba(14,31,38,1) 70%, rgba(255,255,255,0) 100%);
   justify-content: space-between;
   position: fixed;
   top: 0px;

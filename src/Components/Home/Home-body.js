@@ -19,7 +19,6 @@ const Random = styled.div`
   position: absolute;
   right: 0px;
   z-index: 2;
-  background: rgba(14,31,38,0.3);
 `
 
 export const BodyHome = () => {
