@@ -35,7 +35,7 @@ h3 {
   line-height: 28px;
   letter-spacing: 0.02em;
 };
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -13,7 +13,7 @@ const Container = styled.section`
   color: white;
   margin: auto;
   width: 100%;
-  @media (max-width: 450px) {
+  @media (max-width: 550px) {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;

@@ -29,7 +29,7 @@ const Font = styled.section`
     letter-spacing: 0.03em;
     text-transform: capitalize;
   };
-  @media (max-width: 450px) {
+  @media (max-width: 550px) {
     text-align: center;
     height: 100%;
     justify-content: space-evenly;

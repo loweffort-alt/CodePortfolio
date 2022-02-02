@@ -9,8 +9,7 @@ const Container = styled.div`
   align-items: flex-end;
   position: relative;
   @media (max-width: 700px) {
-    height: 70vh;
-    background: rgba(14,31,38,0.3);
+    align-items: center;
   };
 `
 

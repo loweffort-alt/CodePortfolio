@@ -27,10 +27,18 @@ const ContainerForm = styled.form`
     justify-content: space-between;
     gap: 100px;
     width: 100%;
+    @media (max-width: 700px) {
+      display: flex;
+      flex-direction: column;
+      gap: 4.5vh;
+    };
+    @media (max-height: 530px) {
+      gap: 0px;
+    }
   };
   textarea {
     height: 100px;
-    background-color: var(--blue-bg);
+    background-color: rgba(255,255,255,0);
     color: var(--white-f2);
     box-sizing: border-box;
     border: none;
@@ -44,13 +52,21 @@ const ContainerForm = styled.form`
   textarea::placeholder {
     color: rgba(255,255,255,0.3);
   };
+  @media (max-width: 550px) {
+    h1 {
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 0.25em;
+    };
+    width: 100%;
+  };
 `
 
 const Inputs = styled.input`
   width: 100%;
   height: 43px;
   box-sizing: border-box;
-  background-color: var(--blue-bg);
+  background-color: rgba(255,255,255,0);
   color: var(--white-f2);
   border: none;
   border-bottom: 2px solid rgba(255,255,255,0.3);
@@ -80,6 +96,11 @@ const Button = styled.div`
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     cursor: pointer;
+    @media (max-width: 550px) {
+      width: 170px;
+      height: 58px;
+      padding: 0;
+    };
   }
 `
 

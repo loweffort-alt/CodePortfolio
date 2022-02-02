@@ -9,7 +9,6 @@ const Box = styled.div`
   height: 100%;
   color: #f7f7f7;
   h1 {
-    margin: 0;
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
@@ -19,7 +18,7 @@ const Box = styled.div`
     font-variant: small-caps;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   };
-  @media (max-width: 450px) {
+  @media (max-width: 550px) {
     h1 {
       font-weight: bold;
       font-size: 30px;
