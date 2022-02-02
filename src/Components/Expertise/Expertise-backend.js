@@ -7,6 +7,7 @@ const Box = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
+  color: #f7f7f7;
   h1 {
     margin: 0;
     font-family: Raleway;

@@ -1,9 +1,9 @@
 import { Home } from './Components/Home/Home';
 import { About } from './Components/About/About'
-import { Contact } from './Components/Contact/Contact';
 import { Header } from './Components/Header';
 import styled from '@emotion/styled';
 import { Expertise } from './Components/Expertise/Expertise';
+import { ContactMe } from './Components/Contact/ContactMe';
 
 const Container = styled.div`
   position: relative;
@@ -17,7 +17,7 @@ function App() {
     <Home />
     <About />
     <Expertise />
-    <Contact />
+    <ContactMe />
   </Container>
 }
 
