@@ -5,8 +5,7 @@ import { MenuOptions } from "./MenuOptions"
 const Container = styled.div`
   display: flex;  
   list-style: none;
-  background: rgb(14,31,38);
-  background: linear-gradient(180deg, rgba(14,31,38,1) 68%, rgba(255,255,255,0) 100%);
+  background: rgba(14,31,38,0.3);
   justify-content: space-between;
   position: sticky;
   top: 0px;

@@ -1,0 +1,37 @@
+:root {
+  --black: #000000;
+
+  /*White Palette*/
+  --lettering-color: #ffffff;
+  --white-f0: #f0f0f0;
+  --white-f2: #f2f2f2;
+  --white-e2: #e2e2e2;
+  --white-e4: #e4e4e4;
+  --white-e6: #e6e6e6;
+
+  /*Gray Palette*/
+  --gray-cc: #cccccc;
+  --gray-ca: #cacaca;
+  --gray-a7: #a7a7a7;
+
+  /*Blue Palette*/
+  --blue-bg: #0e1f26;
+  --blue-one: #263A41;
+  --blue-two: #1D2C33;
+  --blue-three: #517d8c;
+  --blue-four: #43798c;
+
+  /*Purple Palette*/
+  --purple-one: #2d2b3d;
+  --purple-two: #3F3D56;
+  --putple-three: #2F2E41;
+  --purple-four: #231F20;
+
+  /*Mix Palette*/
+  --ocre-one: #8c6235;
+  --ocre-two: #8c7943;
+  --brown: #403325;
+  --pink-one: #ff6584;
+  --pink-two: #ffb6b6;
+};
+

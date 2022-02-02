@@ -1,7 +1,7 @@
-import {ReactComponent as Github} from '../../images/Github.svg'
-import {ReactComponent as Linkedin} from '../../images/Linkedin.svg'
-import {ReactComponent as Mail} from '../../images/Mail.svg'
-import {ReactComponent as Cv} from '../../images/CV.svg'
+import {ReactComponent as Github} from '../../images/Icons/Github.svg'
+import {ReactComponent as Linkedin} from '../../images/Icons/Linkedin.svg'
+import {ReactComponent as Mail} from '../../images/Icons/Mail.svg'
+import {ReactComponent as Cv} from '../../images/Icons/CV.svg'
 
 export const LinksHome = ({logo, link}) => {
   switch (logo) {

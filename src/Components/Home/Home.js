@@ -2,7 +2,8 @@ import styled from '@emotion/styled'
 import { BodyHome } from './Home-body'
 import { FooterHome } from './Home-footer'
 
-const Container = styled.div`
+const Container = styled.section`
+  background-color: var(--blue-three);
   padding: 0px 67px;
   margin: 0px;
   margin-top: -92px;

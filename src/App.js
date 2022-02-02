@@ -7,6 +7,7 @@ import styled from '@emotion/styled';
 
 const Container = styled.div`
   position: relative;
+  box-sizing: content-box;
 `
 
 function App() {
