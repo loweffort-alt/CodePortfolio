@@ -4,8 +4,16 @@ const Font = styled.section`
 background: rgba(200,20,150,0.2);
 font-family: Raleway;
 color: #f7f7f7;
-line-height: 56px;
 text-shadow: 0.2em 0.2em black;
+position: absolute;
+right: 0px;
+z-index: 3;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+width: 50%;
+text-align: right;
 h1 {
   font-weight: 500;
   font-size: 48px;
@@ -13,6 +21,7 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: capitalize;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
 };
 h2 {
   font-weight: 600;
@@ -27,13 +36,25 @@ h3 {
   line-height: 28px;
   letter-spacing: 0.02em;
 };
-position: absolute;
-right: 0px;
-z-index: 3;
 @media (max-width: 450px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   line-height: 75px;
-  text-align: center;
-}
+  height: 115%;
+  width: 100%;
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.06em;
+  };
+  h2 {
+    font-size: 22px;
+  };
+  h3 {
+    font-size: 20px;
+  };
+};
 `
 
 export const TextAbout = () => {
