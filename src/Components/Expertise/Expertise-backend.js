@@ -5,7 +5,7 @@ const Box = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 100%;
   h1 {
     margin: 0;

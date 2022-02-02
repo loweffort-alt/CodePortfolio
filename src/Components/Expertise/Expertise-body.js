@@ -10,17 +10,14 @@ const Container = styled.section`
   justify-content: space-between;
   align-items: center;
   position: relative;
-  @media (max-width: 700px) {
-    height: 70vh;
-    padding: 0px 5px;
-  }
   color: white;
   margin: auto;
   width: 100%;
   @media (max-width: 450px) {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
+    padding: 0px 5px;
   }
 `
 
