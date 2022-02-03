@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portafolio/static/css/main.36c04fc9.css",
-    "main.js": "/react-portafolio/static/js/main.113595da.js",
-    "static/js/787.5dfc6132.chunk.js": "/react-portafolio/static/js/787.5dfc6132.chunk.js",
-    "static/media/FrontImage.svg": "/react-portafolio/static/media/FrontImage.a8de34cfeb78349c4f36b44c39cd89ba.svg",
-    "static/media/BackendImages.svg": "/react-portafolio/static/media/BackendImages.a506c048effb8059147caa4f008a92df.svg",
-    "static/media/AboutImage.svg": "/react-portafolio/static/media/AboutImage.976454e2ddec8a04373dc5ad5170deca.svg",
-    "static/media/FrontendImages.svg": "/react-portafolio/static/media/FrontendImages.0a839b86e75ad9b8d2f8078ddee9ff88.svg",
-    "static/media/ContactImage.svg": "/react-portafolio/static/media/ContactImage.b28bf0aaae9fd3fb1c374e43708420c9.svg",
-    "static/media/CV.svg": "/react-portafolio/static/media/CV.a649d9647b70dd5938fcd7e1f6201424.svg",
-    "static/media/Github.svg": "/react-portafolio/static/media/Github.1a65548f21d11f26628360376cbe21bb.svg",
-    "static/media/Linkedin.svg": "/react-portafolio/static/media/Linkedin.77043d0ec2e066086c25bca7e1c228ca.svg",
-    "index.html": "/react-portafolio/index.html",
-    "static/media/Logo.svg": "/react-portafolio/static/media/Logo.765eeccf94d7f9dc306df90c4fae7c38.svg",
-    "static/media/Mail.svg": "/react-portafolio/static/media/Mail.b5541bf4d7e4f8db256b8d0fa23382e1.svg",
-    "static/media/ArrowDown.svg": "/react-portafolio/static/media/ArrowDown.0e7577e8cb95ce2d5aed3b3051eb73c3.svg",
-    "main.36c04fc9.css.map": "/react-portafolio/static/css/main.36c04fc9.css.map",
-    "main.113595da.js.map": "/react-portafolio/static/js/main.113595da.js.map",
-    "787.5dfc6132.chunk.js.map": "/react-portafolio/static/js/787.5dfc6132.chunk.js.map"
+    "main.css": "/static/css/main.36c04fc9.css",
+    "main.js": "/static/js/main.b8870868.js",
+    "static/js/787.5dfc6132.chunk.js": "/static/js/787.5dfc6132.chunk.js",
+    "static/media/FrontImage.svg": "/static/media/FrontImage.a8de34cfeb78349c4f36b44c39cd89ba.svg",
+    "static/media/BackendImages.svg": "/static/media/BackendImages.a506c048effb8059147caa4f008a92df.svg",
+    "static/media/AboutImage.svg": "/static/media/AboutImage.976454e2ddec8a04373dc5ad5170deca.svg",
+    "static/media/FrontendImages.svg": "/static/media/FrontendImages.0a839b86e75ad9b8d2f8078ddee9ff88.svg",
+    "static/media/ContactImage.svg": "/static/media/ContactImage.b28bf0aaae9fd3fb1c374e43708420c9.svg",
+    "static/media/CV.svg": "/static/media/CV.a649d9647b70dd5938fcd7e1f6201424.svg",
+    "static/media/Github.svg": "/static/media/Github.1a65548f21d11f26628360376cbe21bb.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.77043d0ec2e066086c25bca7e1c228ca.svg",
+    "index.html": "/index.html",
+    "static/media/Logo.svg": "/static/media/Logo.765eeccf94d7f9dc306df90c4fae7c38.svg",
+    "static/media/Mail.svg": "/static/media/Mail.b5541bf4d7e4f8db256b8d0fa23382e1.svg",
+    "static/media/ArrowDown.svg": "/static/media/ArrowDown.0e7577e8cb95ce2d5aed3b3051eb73c3.svg",
+    "main.36c04fc9.css.map": "/static/css/main.36c04fc9.css.map",
+    "main.b8870868.js.map": "/static/js/main.b8870868.js.map",
+    "787.5dfc6132.chunk.js.map": "/static/js/787.5dfc6132.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36c04fc9.css",
-    "static/js/main.113595da.js"
+    "static/js/main.b8870868.js"
   ]
 }
