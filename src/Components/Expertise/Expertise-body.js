@@ -3,7 +3,6 @@ import { BackendExpertise } from "./Expertise-backend"
 import { FrontendExpertise } from "./Expertise-frontend"
 
 const Container = styled.section`
-  height: 70vh;
   box-sizing: border-box;
   padding: 0px 50px;
   display: flex;
@@ -11,13 +10,12 @@ const Container = styled.section`
   align-items: center;
   position: relative;
   color: white;
-  margin: auto;
   width: 100%;
-  @media (max-width: 550px) {
+  @media (max-width: 800px) {
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    padding: 0px 5px;
+    padding: 0px 0px;
+    gap: 30px;
   }
 `
 

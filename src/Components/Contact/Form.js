@@ -52,7 +52,7 @@ const ContainerForm = styled.form`
   textarea::placeholder {
     color: rgba(255,255,255,0.3);
   };
-  @media (max-width: 550px) {
+  @media (max-width: 800px) {
     h1 {
       font-weight: bold;
       font-size: 30px;
@@ -96,7 +96,7 @@ const Button = styled.div`
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     cursor: pointer;
-    @media (max-width: 550px) {
+    @media (max-width: 800px) {
       width: 170px;
       height: 58px;
       padding: 0;

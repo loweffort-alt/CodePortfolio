@@ -7,15 +7,16 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 90vh;
-  @media (max-width: 700px) {
-    padding: 0px 30px;
-  };
+  align-items: center;
   background-color: var(--blue-bg);
   position: relative;
-  @media (max-width: 450px) {
-    height: 120vh;
+  @media (max-width: 800px) {
+    padding: 0px 30px;
   };
+  @media (min-width: 800px) {
+    height: 70vh;
+    justify-content: space-between;
+  }
 `
 
 export const Expertise = () => {

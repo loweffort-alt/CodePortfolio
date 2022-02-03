@@ -18,14 +18,15 @@ const Box = styled.div`
     font-variant: small-caps;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   };
-  @media (max-width: 450px) {
+  @media (max-width: 800px) {
     h1 {
+      margin: 0px;
       font-weight: bold;
       font-size: 30px;
       letter-spacing: 0.25em;
     };
     svg {
-      width: 105%;
+      width: 100%;
     }
   };
 `

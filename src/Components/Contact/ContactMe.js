@@ -10,8 +10,8 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  @media (max-width: 700px) {
-    padding: 0px 30px;
+  @media (max-width: 800px) {
+    padding: 50px 30px 0px;
   }
 `
 

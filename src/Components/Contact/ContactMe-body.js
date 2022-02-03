@@ -8,7 +8,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     align-items: center;
   };
 `
