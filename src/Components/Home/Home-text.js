@@ -49,7 +49,7 @@ const Links = styled.section`
     display: flex;
     padding: 5px;
   };
-  @media (max-width: 450px) {
+  @media (max-width: 700px) {
     justify-content: center;
     svg {
       width: 45px;

@@ -16,7 +16,7 @@ const Container = styled.section`
 `
 
 export const About = () => {
-  return <Container>
+  return <Container id="about">
     <BodyAbout/>
   </Container>
 }

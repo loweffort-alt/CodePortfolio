@@ -1,6 +1,7 @@
 import styled from "@emotion/styled"
 import { ReactComponent as Logo } from '../images/Logo.svg'
 import { MenuOptions } from "./MenuOptions"
+import { Link } from "react-scroll";
 
 const Container = styled.div`
   display: flex;
@@ -43,11 +44,13 @@ const Menu = styled.div`
 export const Header = () => {
   return <>
     <Container>
-      <Logo style={{cursor: 'pointer', position:'absolute'}} width='50px'/>
+      <Link to="home" smooth={true} duration={1000} >
+        <Logo style={{cursor: 'pointer', position:'absolute'}} width='50px'/>
+      </Link>
       <Menu>
-        <MenuOptions text={'ABOUT'} />
-        <MenuOptions text={'EXPERTISE'} />
-        <MenuOptions text={'CONTACT'} />
+        <MenuOptions text={'ABOUT'} link={'about'} />
+        <MenuOptions text={'EXPERTISE'} link={'expertise'} />
+        <MenuOptions text={'CONTACT'} link={'contact'} />
       </Menu>
     </Container>
   </>

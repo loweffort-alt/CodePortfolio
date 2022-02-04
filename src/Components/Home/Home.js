@@ -22,7 +22,7 @@ const Ghost = styled.div`
 
 export const Home = () => {
   return <>
-    <Container>
+    <Container id='home'>
       <Ghost/>
       <BodyHome/>
       <FooterHome/>

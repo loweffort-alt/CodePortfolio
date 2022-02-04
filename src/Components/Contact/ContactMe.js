@@ -16,7 +16,7 @@ const Container = styled.section`
 `
 
 export const ContactMe = () => {
-  return <Container>
+  return <Container id="contact">
     <BodyContactMe/>
   </Container>
 }
