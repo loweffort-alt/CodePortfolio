@@ -68,7 +68,7 @@ export const TextHome = () => {
     <Links>
       <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} width={'50px'}/>
       <LinksHome logo={'Linkedin'} link={'https://www.linkedin.com/in/alexfarfan/'} width={'50px'} />
-      <LinksHome logo={'CV'} link={'https://drive.google.com/file/d/17VH88xvYjKaxoYjyo196umo5V-XCAK_2/view?usp=sharing'} width={'50px'} />
+      <LinksHome logo={'CV'} link={'https://drive.google.com/file/d/1kK3vCQRWGQ342cQmwEI6FkzNDPOBCrBY/view?usp=sharing'} width={'50px'} />
       <LinksHome logo={'Mail'} link={'mailto:farfan_alexander@outlook.com'} width={'50px'} />
     </Links>
   </Font>

@@ -33,7 +33,7 @@ const Menu = styled.div`
   font-variant: small-caps;
   gap: 50px;
   justify-content: flex-end;
-  color: 	#f7f7f7;
+  color: 	var(--lettering-color);
   @media (max-width: 700px) {
     display: none;
   }
