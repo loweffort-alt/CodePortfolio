@@ -61,7 +61,7 @@ const Links = styled.section`
 export const TextHome = () => {
   return <Font>
     <div>
-      <h1>Hello,</h1>
+      <h1>Hello</h1>
       <h1>I'm Alex!</h1>
     </div>
     <h2>A Front-End Developer</h2>
