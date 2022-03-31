@@ -64,7 +64,6 @@ export const TextHome = () => {
       <h1>Hello,</h1>
       <h1>I'm Alex!</h1>
     </div>
-    <div>randomeable</div>
     <h2>A Front-End Developer</h2>
     <Links>
       <LinksHome logo={'Github'} link={'https://github.com/loweffort-alt'} width={'50px'}/>
