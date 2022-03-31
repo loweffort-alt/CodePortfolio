@@ -48,6 +48,7 @@ export const Header = () => {
         <Logo style={{cursor: 'pointer', position:'absolute'}} width='50px'/>
       </Link>
       <Menu>
+        <MenuOptions text={'HOME'} link={'home'} />
         <MenuOptions text={'ABOUT'} link={'about'} />
         <MenuOptions text={'EXPERTISE'} link={'expertise'} />
         <MenuOptions text={'CONTACT'} link={'contact'} />
